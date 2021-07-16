@@ -16,7 +16,10 @@
 @media (max-width: 576px) {
   
 }
-
+#selfie {
+  width: 100%;
+  height: auto;
+}
 
 * {
   box-sizing: border-box;
@@ -30,8 +33,10 @@
 body{
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image:url(img/TC_background.png);
+  background-image:url("https://lh3.googleusercontent.com/i66JbFOOoqLDBKpuazxS65_u344ScEO5uPnzRggoRpcgiDVibh3lGyT4_EAMgYdYJHlHKDXBzpzv0ifHBBX6o7jv6LmY9X4n6uaqGHkCL9AwD3CV5QsX3FurJdZcXKuR5m_8eFFfVYbq3nATJ7_f72c5E003ecdo7lNXTgGDMbOPqYhJXG06cM3umULeCMu9kMDbY_wHaClVl5NtynyTCmDugXOBYZymu9AotauyfR4P25vptfamC0g0DyIRSMdaKMSmInEJTgdKiPDLs4WzQGG9PgNtfJ22DEZOpoYP4vuxXONKD8-CgzfbDAQgxTHY0elNiYFdDc42FGiO3Kh7aoQbBwIA5e194m7FZEfWV3KElfSTV3y7zU9GjRa5tO6FESiMEDhhPIW1IjiL7yq7pU_nuROa5t4N5883RIw5h9yY3bCUoJz2825CU_Litl1VPAgw0QebqOKbuwAitGigqYrywh97GwYcdQF9WJsyTmA3j8bxHcFT32ye9fiFLa7X6jFz9D8zOPzx0xblDdWZvPdn5INLgvhougO_S77UEDp9wAtsFn3JfozMq1QRngvxreR4qulLxmVKtR7cclvh8XdXWlDY4Pr5RBWah9hsDLRXp8yIDWPakNohOXrePr4AmYHDlcS-Gl-qXtjD1QPiz2e08coy0d1JNCwYA01zxHdmDes2V_7v6mu8ZMi8hf1NutILQZ7RefnV298RnY2hUVj_MQ=w652-h978-no?authuser=0");
   color: white;
+  background-size: cover;
+  object-fit: cover ;
 }
 
 figure {
@@ -202,6 +207,7 @@ section{
   border: 1px solid black;
   margin: 5px;
   padding: 5px;
+  
 }
 
 .resume{
